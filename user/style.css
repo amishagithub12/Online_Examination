@@ -1,0 +1,37 @@
+body{
+font-family: sans-serif;
+}
+.menu_bar{
+background:#660066;
+height:80px;
+width:100%;
+display:flex;
+align-items:center;
+justify-content: space-between;
+padding:0 5%;
+}
+.logo{
+color:#FFFFFF;
+font-size:15px;
+}
+.logo spam{
+color:var(--color-primary);
+}
+.menu_bar ul{
+list-style:none;
+display:flex;
+}
+dropdown_menu{
+display:block;
+position:absolute;
+left:0;
+top:100%;
+}
+dropdown_menu ul{
+display:block;
+margin:10px;
+}
+dropdown_menu ul li{
+width:150px;
+padding:10px;
+}
