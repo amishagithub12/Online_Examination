@@ -61,20 +61,10 @@
                 <div class="card-body">
                     <h2 class="title">Registration Info</h2>
                     <form action="aregister.php" method="POST" enctype="multipart/form-data">
-
-
-                        
-
-                        
-                            
-                             <div class="input-group">
+                         <div class="input-group">
                             <input class="input--style-1" type="text" placeholder="Name" name="firstName" required="required">
                        
                         </div>
-
-
-
-
 
                         <div class="input-group">
                             <input class="input--style-1" type="email" placeholder="Email" name="email" required="required">
@@ -86,10 +76,6 @@
                           
                         </div>
                         
-						
-						
-
-                     
 
                         <div class="p-t-20">
                             <button class="btn btn--radius btn--green" name="submit" type="submit">Submit</button>

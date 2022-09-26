@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\student;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Hash;
 
 class StudentController extends Controller
 {
@@ -91,5 +92,23 @@ class StudentController extends Controller
     public function destroy(student $student)
     {
         //
+    }
+
+}
+class PasswordController extends Controller
+{
+    /**
+     * Update the password for the user.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function update(Request $request)
+    {
+        // Validate the new password length...
+ 
+        $request->user()->fill([
+            'password' => Hash::make($request->newPassword)
+        ])->save();
     }
 }

@@ -56,7 +56,7 @@ $filepage = end($filepage);
 
                
                  <li class="dropdown">
-                                              <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                           <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                             <i class="fa fa-user fa-fw"></i>
                             <?php
       if(isset ($_SESSION['user_id']))

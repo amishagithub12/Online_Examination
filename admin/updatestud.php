@@ -220,8 +220,9 @@
 						 $pass=$_POST['txtpass'];
 						 
 						//$sql="Update category_master set name='$name' where category_id='$category_id'";
-						$updCourse = $conn->query("UPDATE student_reg SET name='$name',email='$email',password='$pass' WHERE stud_id='$id' ");
+						$updCourse = $conn->query("UPDATE students SET name='$name',email='$email',password='$pass' WHERE id='$id' ");
 						@mysqli_close($conn);
+            
 					}
 					?>
 

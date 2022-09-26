@@ -25,7 +25,7 @@
               
                 <button type="submit" class="btn btn-primary">Register</button>
             </form>
-            <a href="http://localhost/Online_Examination/user/login.php">Aleready Registred!</a>
+            <a href="http://localhost/Online_Examination/user/login.php">Already Registred!</a>
         </div>
     </div>
 </div>

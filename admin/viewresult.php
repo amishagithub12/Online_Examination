@@ -160,7 +160,7 @@
 				      <thead class="thead-dark">
 						<tr>
 						  
-						  <th class="text-uppercase">name</th>
+						  <th class="text-uppercase">Name</th>
 						  <th class="text-uppercase">Attend Question</th>						  
 						  <th class="text-uppercase">Right Question</th>	
 						  <th class="text-uppercase">Marks</th>					 

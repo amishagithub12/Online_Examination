@@ -54,7 +54,7 @@ if(isset($_POST['btnsubmit']))
             <p>Password</p>
             <input type="password" name="pwd" placeholder="Enter Password" required="required">
             <input type="submit" name="btnsubmit" name="login-submit" value="Login">
-			<a href="fregister.php">Ragister Now </a>
+			<a href="fregister.php">Register Now </a>
            
         </form>
         

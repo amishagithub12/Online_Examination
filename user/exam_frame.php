@@ -189,6 +189,8 @@ if(!isset($_SESSION['current_que']) || empty($_SESSION['current_que'])){
 					</div>
 				</div>
 
+				
+
 			</div>
 
 			<input type="hidden" id="current_que" value="<?php echo $_SESSION['current_que']; ?>" />
